@@ -102,7 +102,7 @@ $( document ).ready(function() {
 	
 function getAnswers(){
 		
-	$.get( "https://smartcitizen.cl/utils/getQuestionResults.php?questionId=7", function( data ) {
+	$.get( "http://smartcitizen.cl/utils/getQuestionResults.php?questionId=7", function( data ) {
 		if (!isJson(data)){
 			console.log(data);
 			return;
